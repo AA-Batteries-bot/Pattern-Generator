@@ -1,6 +1,6 @@
 // Aaron Johnson
 //10/28/26
-//
+// This code allows you to input integers to create different partterns.
 
 public class Pattern {
 
@@ -17,7 +17,7 @@ public class Pattern {
     String star = "*";
     String star2 = "**";
     int counter = 0;
-    while (counter <= rows) {
+    while (counter < rows) {
       System.out.println(star);
       star += star2;
       counter++;
